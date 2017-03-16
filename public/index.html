@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+        <script src="loginCheck.js"></script>
+        <form action='/postAns' method='post'>
+          <div id="qns" class="form-group">
+            <p>What is value of X?</p>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Option 1</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Option 2</label>
+            </div>
+            <div class="radio disabled">
+              <label><input type="radio" name="optradio" disabled>Option 3</label>
+            </div>
+            <p>What is value of X?</p>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Option 1</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Option 2</label>
+            </div>
+            <div class="radio disabled">
+              <label><input type="radio" name="optradio" disabled>Option 3</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <script src="extractQns.js"></script>
+    </body>
+
+</html>
