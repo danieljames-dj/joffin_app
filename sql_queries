@@ -1,0 +1,18 @@
+create table questions (
+	setNo int,
+	qnNo int,
+	qn varchar(100),
+	optA varchar(20),
+	optB varchar(20),
+	optC varchar(20),
+	optD varchar(20),
+	ans varchar(20)
+);
+
+create table users (
+	uid varchar(50),
+	displayName varchar(30),
+	email varchar(30),
+	qnStat varchar(20),
+	score int
+);
