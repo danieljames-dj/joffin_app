@@ -14,5 +14,6 @@ create table users (
 	displayName varchar(30),
 	email varchar(30),
 	qnStat varchar(20),
-	score int
+	score int,
+	lastUp TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );

@@ -12,9 +12,25 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+        <link rel="stylesheet" type="text/css" href="css.css">
+
     </head>
 
-    <body>
+    <body scroll="no" style="overflow: hidden">
+    <div class="header">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 box">
+          <center><img src="images/head.png" style="max-width: 100%;"></center>
+        </div>
+      </div>
+      </div>
+    <div class="row header" style="padding-top: 10px;">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 box">
+          <center><img src="images/leaderboard.png" style="max-width: 50%;"></center>
+        </div>
+    </div>
+    <div class="row bg">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 box" style="height: 100vh">
         <table class="table">
           <thead>
             <tr>
@@ -23,19 +39,11 @@
               <th>Total Score</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>ABC</td>
-              <td>14</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>DBC</td>
-              <td>12</td>
-            </tr>
+          <tbody id="tablecontent">
           </tbody>
         </table>
+      </div>
+    </div>
     </body>
     <script src="getLeaderboard.js"></script>
 
