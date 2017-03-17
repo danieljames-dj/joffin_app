@@ -1,12 +1,12 @@
 create table questions (
 	setNo int,
 	qnNo int,
-	qn varchar(100),
-	optA varchar(20),
-	optB varchar(20),
-	optC varchar(20),
-	optD varchar(20),
-	ans varchar(20)
+	qn varchar(200),
+	optA varchar(100),
+	optB varchar(100),
+	optC varchar(100),
+	optD varchar(100),
+	ans varchar(100)
 );
 
 create table users (
